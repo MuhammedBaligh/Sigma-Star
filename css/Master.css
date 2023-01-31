@@ -1,0 +1,510 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100vh;
+    background-color: rgba(251, 251, 251, 0.301);
+
+}
+.header .nav{
+    background-color: rgb(238, 238, 238,0.5);
+    width: 80%;
+    margin: auto;
+}
+.header .nav ul{
+    list-style-type: none;
+    padding: 14px;
+}
+.header .nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+.header .nav ul li a{
+    text-decoration: none;
+    color: rgb(110, 106, 106);
+    font-size: 19px;
+    font-weight: 700;
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    /* border: 3px black; */
+}
+.header .nav ul li .nav-btn {
+    font-size: 16px;
+    color: rgba(94, 94, 94, 0.615);
+    border: 1px solid rgb(160, 160, 160);
+    box-shadow: 1px 1px 1px rgb(110, 106, 106) ;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100px;
+    font-weight: bold;
+}
+.header .nav .logo{
+    float: right;
+    padding: 20px 45px 9px 0px
+}
+.header .nav .logo a{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    color: rgb(94, 94, 94);
+}
+.header .logo a .s-sigma {
+    color: rgb(235, 142, 3);
+}
+.header .logo a .s-star {
+    color: rgb(3, 204, 204);
+}
+/*==========================End of nav*/
+
+/*==========================Top content*/
+.top-content{
+    width: 80%;
+    margin: auto;
+}
+.top-content .main-text{
+    background-color: #eee;
+    width: 20%;
+    text-align: center;
+    float: right;
+    padding: 50px;
+    margin: 50px;
+}
+.top-content .main-text h1{
+    font-family: "Raleway", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(40, 40, 40);
+}
+.top-content .main-text h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.home .top-content .main-text a {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    background-color: rgb(66, 182, 218);
+    font-size: 16px;
+    color: white;
+    border-width: 0px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px 1px rgba(222, 231, 222, 0.5);
+    padding: 12px 30px;
+}
+/*========================End to content*/
+
+/*=========================Section One start*/
+.Section-one{
+    width: 80%;
+    margin: auto;
+    height: 40vh;
+}
+.Section-one .vision, .why-us{
+    background-color: #eee;
+    text-align: center;
+    width: 46%;
+    padding: 20px 20px 40px;
+    float: right;
+    margin: 0px 4px;
+}
+.Section-one .vision h2 {
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+.Section-one .vision p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-top: 14px;
+}
+.Section-one .why-us h2{
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+.Section-one .why-us p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-top: 14px;
+}
+/*===================End of section One*/
+
+/*===================Start of section two*/
+.Section-two{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+}
+.Section-two .about-us-info {
+    text-align: center;
+    width: 48%;
+    float: right;
+    background-color: #eee;
+    padding: 0px 7px 30px 10px;
+}
+.Section-two .about-us-info h2{
+    font-family: "Raleway", sans-serif;
+    padding-top: 31px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+.Section-two .about-us-info p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-top: 14px;
+}
+.Section-two .about-us-img{
+    width: 50%;
+}
+.Section-two .about-us-img img{
+    width: 100%;
+    height: 100%;
+    padding-top: 16px;
+    padding-right: 10px;
+}
+/*===============End Of Section Two*/
+
+/*===============Start od Section Three*/
+.Section-three{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: #eee;
+}
+.Section-three .services{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.Section-three .services h2{
+    font-family: "Raleway", sans-serif;
+    padding-top: 31px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+.Section-three .services p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-top: 14px;
+}
+.Section-three .mini-cards{
+    height: 50%;
+    padding: 10;
+    margin-bottom: 25px;
+}
+.Section-three .minicard{
+    text-align: center;
+    color: rgb(100,100,100);
+    float: right;
+    width: 23%;
+    padding: 30px 5px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.Section-three .our-clients{
+    width: 100%;
+    text-align: center;
+  
+}
+.Section-three .our-clients h2{
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+.Section-three .our-clients p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-top: 14px;
+}
+/*============End of section three*/
+
+/*===========Start section four*/
+.Section-four{
+    width: 80%;
+    height: 240vh;
+    margin: auto;
+    background-color: white;
+}
+.Section-four .contact-us{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px ;
+}
+.Section-four .contact-us h2{
+    font-family: "Raleway", sans-serif;
+    padding-top: 31px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+.Section-four .contact-us p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-top: 14px;
+}
+.Section-four .contact-minicards{
+    padding: 30px;
+    margin-top: 15px;
+    text-align: center;
+}
+.Section-four .contact-minicards .location {
+    width: 50%;
+    height: 650px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border-top: 5px solid rgb(66, 182, 218);
+    border-bottom: 5px solid rgb(66, 182, 218);
+    border-radius: 10px;
+    padding: 20px 10px;
+    /* float: right; */
+    margin: auto;
+}
+.Section-four .contact-minicards .location h3{
+    direction: rtl;
+    text-align: start;
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+    margin-right: 10px;
+}
+.Section-four .contact-minicards .location p{
+    direction: rtl;
+    text-align: start;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 0%, 30%);
+    margin-right: 10px;
+}
+.Section-four .contact-minicards .location .adress i, 
+.Section-four .contact-minicards .location .email i, 
+.Section-four .contact-minicards .location .number i{
+    width: 10%;
+    height: 35px;
+    padding-top: 15px;
+    color: rgb(66, 182, 218);
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+.Section-four .contact-minicards .location iframe{
+    width: 80%;
+    height: 400px;
+    padding-top: 30px;
+    margin-top: 20px;
+    border: 3px solid rgb(66, 182, 218);
+}
+
+/*====================FOORM START*/
+.Section-four .contact-minicards .contact-form form{
+    width: 50%;
+    height: 650px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 10px;
+    margin: 50px auto 15px auto;
+    border-radius: 10px;
+    border-top: 5px solid rgb(66, 182, 218);
+    border-bottom: 5px solid rgb(66, 182, 218);
+}
+.Section-four .contact-minicards .contact-form form .top{
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    background-color: #eee;
+    margin-top: 50px;
+}
+.Section-four .contact-minicards .contact-form form .top .name-in{
+    float: right;
+}
+.Section-four .contact-minicards .contact-form form .top .name-in label{
+    float: right;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+.Section-four .contact-minicards .contact-form form .top .name-in input{
+    line-height: 28px;
+    margin-top: 17px;
+    margin-right: 15px;
+}
+
+.Section-four .contact-minicards .contact-form form .top .email-in{
+    float: left;
+}
+.Section-four .contact-minicards .contact-form form .top .email-in label{
+    float: right;
+    margin-left: 30px;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+.Section-four .contact-minicards .contact-form form .top .email-in input{
+    line-height: 28px;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+.Section-four .contact-minicards .contact-form form .middle{
+    width: 100%;
+    height: 10%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #eee;
+}
+.Section-four .contact-minicards .contact-form form .middle label{
+    float: right;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+.Section-four .contact-minicards .contact-form form .middle input{
+    line-height: 28px;
+    margin-top: 17px;
+    margin-left: 25px;
+    width: 75%;
+}
+
+.Section-four .contact-minicards .contact-form form .bottom{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    background-color: #eee;
+}
+.Section-four .contact-minicards .contact-form form .bottom label{
+    float: right;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+}
+.Section-four .contact-minicards .contact-form form .bottom textarea{
+    width: 75%;
+    padding-top: 10px;
+}
+.Section-four .contact-minicards .contact-form form button {
+    margin-top: 30px;
+    padding: 20px;
+    width: 50%;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px solid black;
+    background-color: rgb(66, 182, 218);
+    color: white;
+    cursor: pointer;
+}
+/*================End of form*/
+
+/*=============Section 5 start*/
+.Section-five{
+    width: 80%;
+    margin: auto;
+    height: 30vh;
+    text-align: center;
+    background-color: #eee;
+}
+.Section-five .co-name{
+    font-family: "Raleway", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(40, 40, 40);
+}
+.Section-five .social-icons {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Section-five .social-icons i {
+    font-size: 24px;
+    color: rgb(80, 80, 80);
+    padding: 5px;
+    margin-left: 5px;
+    background-color: rgb(230, 230, 230);
+}
+
+.Section-five .copy-rightp{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(120, 120, 120);
+    overflow: auto;
+}
+.Section-five .copy-rightp .creator {
+    width: 48%;
+    text-align: right;
+    font-size: 14px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.Section-five .copy-rightp .copy-rightc {
+    width: 48%;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+
